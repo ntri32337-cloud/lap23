@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Bia 333",
+    "price": 300000,
+    "rating": 5,
+    "image": "/img/333.jpg",
+    "description": "Bia 333 truyền thống Việt Nam, vị êm và dễ uống.",
+    "category": "Bia"
+  },
+  {
+    "name": "Bia Tiger",
+    "price": 400000,
+    "rating": 5,
+    "image": "/img/tiger.jpg",
+    "description": "Bia Tiger vị đậm đà, nổi tiếng tại Việt Nam.",
+    "category": "Bia"
+  },
+  {
+    "name": "Strongbow Táo",
+    "price": 320000,
+    "rating": 4,
+    "image": "/img/strongbow.jpg",
+    "description": "Strongbow vị táo mát lạnh.",
+    "category": "Bia"
+  },
+  {
+    "name": "Bia Sài Gòn",
+    "price": 260000,
+    "rating": 4,
+    "image": "/img/saigon.jpg",
+    "description": "Bia Sài Gòn lager phổ biến.",
+    "category": "Bia"
+  },
+  {
+    "name": "Heineken 250ml",
+    "price": 390000,
+    "rating": 5,
+    "image": "/img/ken250.jpg",
+    "description": "Bia Heineken lon 250ml cao cấp.",
+    "category": "Bia"
+  },
+  {
+    "name": "Heineken Lon Cao",
+    "price": 510000,
+    "rating": 5,
+    "image": "/img/ken cao.jpg",
+    "description": "Heineken lon cao vị đậm.",
+    "category": "Bia"
+  },
+
+  {
+    "name": "7UP",
+    "price": 200000,
+    "rating": 4,
+    "image": "/img/7up.jpg",
+    "description": "Nước ngọt 7UP vị chanh.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Coca Cola",
+    "price": 300000,
+    "rating": 5,
+    "image": "/img/coca.jpg",
+    "description": "Nước ngọt Coca Cola.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Pepsi",
+    "price": 300000,
+    "rating": 5,
+    "image": "/img/pepsi.jpg",
+    "description": "Nước ngọt Pepsi.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Mirinda Soda Kem",
+    "price": 260000,
+    "rating": 4,
+    "image": "/img/mirida.jpg",
+    "description": "Nước ngọt Mirinda vị kem.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Revive",
+    "price": 220000,
+    "rating": 4,
+    "image": "/img/revive.jpg",
+    "description": "Nước ngọt Revive.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Sting Dâu",
+    "price": 320000,
+    "rating": 4,
+    "image": "/img/sting.jpg",
+    "description": "Nước ngọt Sting vị dâu.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Number One",
+    "price": 350000,
+    "rating": 4,
+    "image": "/img/numberone.jpg",
+    "description": "Nước ngọt Number One.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Rockstar",
+    "price": 340000,
+    "rating": 4,
+    "image": "/img/rockstar.jpg",
+    "description": "Nước ngọt Rockstar.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Nước Cam",
+    "price": 300000,
+    "rating": 4,
+    "image": "/img/cam.jpg",
+    "description": "Nước ngọt vị cam.",
+    "category": "Nước ngọt"
+  },
+  {
+    "name": "Nước Chanh Dây",
+    "price": 230000,
+    "rating": 4,
+    "image": "/img/chanh dây.jpg",
+    "description": "Nước ngọt vị chanh dây.",
+    "category": "Nước ngọt"
+  },
+
+  {
+    "name": "Aquafina",
+    "price": 120000,
+    "rating": 4,
+    "image": "/img/aquafina.jpg",
+    "description": "Nước suối Aquafina.",
+    "category": "Nước suối"
+  },
+  {
+    "name": "Aquafina 355ml",
+    "price": 115000,
+    "rating": 4,
+    "image": "/img/aqa355.jpg",
+    "description": "Nước suối Aquafina 355ml.",
+    "category": "Nước suối"
+  },
+  {
+    "name": "Dasani",
+    "price": 95000,
+    "rating": 4,
+    "image": "/img/dasani.jpg",
+    "description": "Nước suối Dasani.",
+    "category": "Nước suối"
+  },
+  {
+    "name": "Dasani 350ml",
+    "price": 110000,
+    "rating": 4,
+    "image": "/img/dasani350.jpg",
+    "description": "Nước suối Dasani 350ml.",
+    "category": "Nước suối"
+  },
+  {
+    "name": "Lavie 350ml",
+    "price": 125000,
+    "rating": 4,
+    "image": "/img/lavie350.jpg",
+    "description": "Nước suối Lavie 350ml.",
+    "category": "Nước suối"
+  },
+  {
+    "name": "Lavie 500ml",
+    "price": 130000,
+    "rating": 4,
+    "image": "/img/lavie500.jpg",
+    "description": "Nước suối Lavie 500ml.",
+    "category": "Nước suối"
+  }
+]

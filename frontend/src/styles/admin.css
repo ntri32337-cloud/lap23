@@ -1,0 +1,103 @@
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: #1e293b;
+  color: white;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 18px;
+  color: #cbd5f5;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 4px 10px;
+}
+
+.sidebar a:hover {
+  background: #334155;
+  color: white;
+}
+
+.sidebar .active {
+  background: #3b82f6;
+  color: white;
+}
+
+/* TABLE */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.table img {
+  border-radius: 10px;
+}
+
+/* MAIN */
+.main-content {
+  padding: 25px;
+  background: #f8fafc;
+  min-height: 100vh;
+}   
+/* SIDEBAR */
+.admin-sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: #1e293b;
+  color: white;
+  padding-top: 10px;
+}
+
+/* BRAND */
+.admin-brand {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px;
+  text-align: center;
+  border-bottom: 1px solid #334155;
+  cursor: pointer;
+}
+
+/* NAV */
+.admin-nav {
+  padding: 10px;
+}
+
+/* MENU ITEM */
+.admin-item {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: #cbd5f5;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+/* HOVER */
+.admin-item:hover {
+  background: #334155;
+  color: white;
+}
+
+/* ACTIVE */
+.admin-item.active {
+  background: #3b82f6;
+  color: white;
+}
+
+/* SUB MENU */
+.admin-sub {
+  padding-left: 10px;
+}

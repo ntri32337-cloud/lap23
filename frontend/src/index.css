@@ -1,0 +1,34 @@
+
+:root{
+  --primary: #81c408;   /* Fruitables green */
+  --secondary: #ffb524; /* Fruitables yellow/orange */
+  --dark: #45595b;
+  --muted: #747d88;
+  --light: #f4f6f8;
+  --border: #e9ecef;
+
+  /* sync bootstrap-ish utility colors */
+  --bs-primary: var(--primary);
+  --bs-secondary: var(--secondary);
+  --bs-dark: var(--dark);
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body{
+  margin: 0;
+  background: #fff;
+  color: var(--dark);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: var(--dark);
+}
+
+a{ text-decoration: none; }
