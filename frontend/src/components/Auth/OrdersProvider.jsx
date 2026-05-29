@@ -15,7 +15,7 @@ export function OrdersProvider({ children }) {
   // ================= ADMIN ORDERS =================
   const fetchOrders = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/orders");
+      const res = await axios.get("https://backend-lap23.onrender.com/api/orders");
       setOrders(res.data.data || []);
     } catch (error) {
       console.error("Load orders error:", error);
@@ -28,7 +28,7 @@ export function OrdersProvider({ children }) {
 
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/orders/user/${userId}`
+        `https://backend-lap23.onrender.com/api/orders/user/${userId}`
       );
 
       setUserOrders(res.data.data || []);
@@ -46,7 +46,7 @@ export function OrdersProvider({ children }) {
   const updateOrderStatus = async (orderId, status) => {
     try {
       await axios.put(
-        `http://localhost:5000/api/orders/${orderId}/status`,
+        `https://backend-lap23.onrender.com/api/orders/${orderId}/status`,
         { status }
       );
 
@@ -62,7 +62,7 @@ export function OrdersProvider({ children }) {
   const deleteOrder = async (orderId) => {
     try {
       await axios.delete(
-        `http://localhost:5000/api/orders/${orderId}`
+        `https://backend-lap23.onrender.com/api/orders/${orderId}`
       );
 
       fetchOrders();
@@ -87,7 +87,7 @@ export function OrdersProvider({ children }) {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/orders/${orderId}/status`,
+        `https://backend-lap23.onrender.com/api/orders/${orderId}/status`,
         { status: newStatus }
       );
 

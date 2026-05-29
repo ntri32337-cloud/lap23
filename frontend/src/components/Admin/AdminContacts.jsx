@@ -16,7 +16,7 @@ const getContacts = async () => {
 
 try{
 
-const res = await axios.get("http://localhost:5000/api/contacts");
+const res = await axios.get("https://backend-lap23.onrender.com/api/contacts");
 
 setContacts(res.data.data);
 
@@ -43,7 +43,7 @@ const addContact = async ()=>{
 
 try{
 
-await axios.post("http://localhost:5000/api/contacts",newContact);
+await axios.post("https://backend-lap23.onrender.com/api/contacts",newContact);
 
 getContacts();
 

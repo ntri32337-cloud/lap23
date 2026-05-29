@@ -8,7 +8,7 @@ export default function MyOrders() {
 
   useEffect(()=>{
 
-    fetch(`http://localhost:5000/api/orders/user/${userId}`)
+    fetch(`https://backend-lap23.onrender.com/api/orders/user/${userId}`)
       .then(res => res.json())
       .then(data => setOrders(data.data || []));
 

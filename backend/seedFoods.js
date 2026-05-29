@@ -169,7 +169,7 @@ async function run() {
     }
 
     console.log(`✅ Seed done. Upserted ${upserted} foods.`);
-    console.log("👉 Bạn test: GET http://localhost:5000/api/foods");
+    console.log("👉 Bạn test: GET https://backend-lap23.onrender.com/foods");
 
     process.exit(0);
   } catch (err) {

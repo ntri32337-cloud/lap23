@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // 🔥 BASE URL
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://backend-lap23.onrender.com/api/orders";
 
 // ✅ Axios instance
 const orderApi = axios.create({
