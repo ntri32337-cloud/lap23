@@ -9,9 +9,10 @@ const app = express();
 // 🔥 CORS FIX - CHO PHÉP REACT (5173/3000) gọi API
 app.use(cors({
   origin: [
-    "http://localhost:5173",  // Vite React
-    "http://localhost:3000",  // Create React App
-    "http://127.0.0.1:5173"
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "https://nvamart.vercel.app" // Thêm tên miền mới của ông vào đây
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
