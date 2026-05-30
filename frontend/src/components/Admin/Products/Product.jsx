@@ -29,12 +29,12 @@ export default function Product({ foods, setFoods }) {
 
   const fetchFoods = async () => {
     const res = await foodApi.getAll();
-    setFoods(res.data ?? []);
+    setFoods(res.data?.foods || res.data?.data || res.data || []);
   };
 
   const fetchCategories = async () => {
     const res = await categoryApi.getAll();
-    setCategories(res.data ?? []);
+    setCategories(res.data?.categories || res.data?.data || res.data || []);
   };
 
   useEffect(() => {
